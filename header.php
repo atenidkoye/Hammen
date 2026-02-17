@@ -5,13 +5,13 @@
     <link rel="stylesheet" href="style.css">
 
     <nav>
-        <a href="index.php">Home</a>
-        <a href="About.php">About</a>
-        <a href="Contact.php">Contact</a>
-        <a href="Order.php">Order</a>
-        <a href="confirm.php">confirm</a>
-        <a href="admin.php">Admin</a>
-    </nav>
+    <a href="index.php">Home</a>
+    <a href="about.php">About</a>
+    <a href="contact.php">Contact</a>
+    <a href="order.php">Order</a>
+    <a href="confirm.php">confirm</a>
+    <a href="admin.php">Admin</a>
+</nav>
 
     <header>
         <h1>Hameen Florist</h1>
