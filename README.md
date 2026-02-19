@@ -2,11 +2,14 @@
 
 ## Team Members & Responsibilities
 
-* **Eljona:**
-    * **Database Architecture:** Designed the `products` table and established the central connection logic (`db.php` and `config.php`).
-    * **Dynamic Home Page:** Implemented PHP loops to fetch and display products directly from the MySQL database.
-    * **Advanced Feature:** Developed a Price Sorting system (ASC/DESC) using PHP `GET` requests and SQL `ORDER BY` logic.
-    * **Server Deployment:** Managed the SFTP transfer and directory structure on the HAMK shell server to ensure all assets and scripts load correctly.
+# Eljona Pacolli - Backend Developer
+
+* **Main Page Development:** I coded the homepage and made it dynamic using PHP so that all flower products are pulled directly from the database.
+* **Database Setup (phpMyAdmin):** I used phpMyAdmin to create and manage the 'products' and 'orders' tables, making sure the prices and names were stored correctly.
+* **Server Management (WinSCP):** I was responsible for using WinSCP to upload all project files to the HAMK shell server and making sure the public_html folder was organized.
+* **Project Documentation:** I created and managed the README file to keep track of the project tasks and progress.
+* **Sorting Feature:** I added a feature to the main page that lets users sort flowers by price (low to high or high to low) using SQL.
+* **File System Optimization:** I organized the directory structure and fixed path issues to ensure that images and styles loaded properly on the live server.
 
 * **Allan:**
     * **Database Connection:** Created the db.php file to connect the website to the MySQL database.
