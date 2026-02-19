@@ -6,7 +6,7 @@
 </header>
 
 <div class="container">
-    <form method="POST" action="orders.php">
+    <form method="POST" action="orderProcessing.php">
 
         <input type="hidden" name="id" value="">
         <input type="text" name="first_name" placeholder="First Name" required>
@@ -19,9 +19,9 @@
         <input type="text" name="card_expiry" placeholder="Card Expiration Date (MM/YY)" required>
         <input type="text" name="cvv" placeholder="CVV" required>
         
-        <button type="submit" name="action" value="create">
+       <a href="/confirm.php"> <button type="submit" name="action" value="create">
             Place Order
-        </button>
+        </button></a>
         <button type="submit" name="action" value="update">
             Update Order
         </button>

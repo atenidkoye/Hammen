@@ -8,10 +8,8 @@
     <a href="index.php">Home</a>
     <a href="about.php">About</a>
     <a href="contact.php">Contact</a>
-    <a href="order.php">Order</a>
-    <a href="confirm.php">confirm</a>
-    <a href="admin.php">Admin</a>
-    <a href="signup.php">Admin</a>
+    <a href="signup.php">Signup</a>
+    <a href="login.php">Login</a>
 </nav>
 
     <header>
